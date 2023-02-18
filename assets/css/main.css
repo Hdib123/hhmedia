@@ -33,6 +33,31 @@ body {
 	line-height: 1;
 }
 
+.table-container {
+	display: inline-block;
+	width: 25%; /* Adjust the width as needed */
+	margin-right: 30px; /* Add some space between tables */
+	vertical-align: top; /* Align the tables at the top */
+  }
+  
+			  td {
+				border-right: 10px solid rgb(177, 177, 177);
+			  }
+			  td:last-child {
+				border-right: none;
+			  }
+			  table tr td:first-child {
+	border-left: 2px solid #6a0dad;
+	border-right: 2px solid #6a0dad;
+	border-bottom: 2px solid #6a0dad; /* Change the color code to the color of your choice */
+  }
+  table tr th:first-child {
+	border-left: 2px solid #6a0dad;
+	border-right: 2px solid #6a0dad;
+	border-bottom: 2px solid #6a0dad;
+	border-top: 2px solid #6a0dad; /* Change the color code to the color of your choice */
+  }
+
 ol, ul {
 	list-style: none;
 }
