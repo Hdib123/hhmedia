@@ -3175,14 +3175,21 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75em 0.75em;
+			text-align: center;
+			vertical-align: middle;
 		}
 
 		table th {
-			color: #ffffff;
+			
+			background-color: #b74e91;
 			font-size: 1em;
 			font-weight: bold;
-			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			color: #ffffff;
+			text-align: center;
+			vertical-align: middle;
+			height: 3em;
+			/*padding: 0 0.75em 0.75em 0.75em;
+			text-align: left;*/
 		}
 
 		table thead {
