@@ -1852,10 +1852,10 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
 		background-color: transparent;
-		border: solid 1px !important;
+		border: solid 3px;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #a32f78 ;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1965,7 +1965,14 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: #a32f78 !important;
+			color: #a32f78;
+		}
+		buttonstyling:hover,
+		.buttonstyling:hover {
+			border-color: #ffffff !important;
+			border: solid 1px !important;
+			color: #ffffff !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -2009,7 +2016,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
-		background: rgba(255, 255, 255, 0.05);
+		background: rgba(163, 47, 120, 0.35);
 		margin: 0 0 2em 0;
 	}
 
@@ -2649,6 +2656,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		padding-top: 0px;
 	}
 
 		ul li {
@@ -3552,7 +3560,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #34235c;
+		background: #272728;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3902,7 +3910,7 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("../../images/background.jpg");
+		background-image: url("../../images/testbg.png");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -3946,7 +3954,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: rgba(32, 11, 47, 0.85); /* Change the color and opacity as needed */
+			background: rgba(39, 39, 39, 0.85); /* Change the color and opacity as needed */
 		  }
 		  
 		  .wrapper img {
@@ -3960,14 +3968,30 @@ input, select, textarea {
 			margin: 0 auto;
 			text-align: center;
 		  }
+
 		  .INTROPAGE.button {
 			position: absolute;
-			top: 90%;
+			top: 110%;
 			left: 50%;
 			transform: translate(-50%, -50%);
-			background-color: #6d2b55;
-			scale: 1.2em;
+			margin-top: 30%;
+			background-color: #e2dadf;/* #a32f78 */
+			height: 65px; /* adjust height as needed */
+			width: 250px; /* adjust width as needed */
+			margin: auto; /* center the button */
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: medium;
 		  }
+
+		  .buttonstyling {
+			background-color: #a32f78;
+			color: #e2dadf;
+			border: solid 1px;
+		}
+
 		  
 		  
 		  #offers {
@@ -4003,4 +4027,8 @@ input, select, textarea {
 				#offers {
 					background-attachment: scroll;
 				}
+			}
+
+			.oneh2 {
+				text-align: center;
 			}
