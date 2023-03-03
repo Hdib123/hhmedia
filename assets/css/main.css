@@ -41,15 +41,15 @@ body {
 				border-right: none;
 			  }
 			  table tr td:first-child {
-	border-left: 2px solid #6a0dad;
-	border-right: 2px solid #6a0dad;
-	border-bottom: 2px solid #6a0dad; /* Change the color code to the color of your choice */
+	border-left: 2px solid #4c335d;
+	border-right: 2px solid #4c335d;
+	border-bottom: 2px solid #4c335d; /* Change the color code to the color of your choice */
   }
   table tr th:first-child {
-	border-left: 2px solid #6a0dad;
-	border-right: 2px solid #6a0dad;
-	border-bottom: 2px solid #6a0dad;
-	border-top: 2px solid #6a0dad; /* Change the color code to the color of your choice */
+	border-left: 2px solid #4c335d;
+	border-right: 2px solid #4c335d;
+	border-bottom: 2px solid #4c335d;
+	border-top: 2px solid #4c335d; /* Change the color code to the color of your choice */
   }
 
 ol, ul {
@@ -2016,12 +2016,12 @@ input, select, textarea {
 		flex-wrap: wrap;
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
-		background: rgba(163, 47, 120, 0.35);
+		background: rgba(69, 66, 68, 0.25);
 		margin: 0 0 2em 0;
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			padding: 3.5em 3em 1em 3em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
@@ -3189,7 +3189,7 @@ input, select, textarea {
 
 		table th {
 			
-			background-color: #b74e91;
+			background-color: #a32f78;
 			font-size: 1em;
 			font-weight: bold;
 			color: #ffffff;
@@ -3996,39 +3996,80 @@ input, select, textarea {
 		  
 		  #offers {
 			background-attachment: fixed;
-			background-image: url("../../images/background.jpg");
+			background-image: url("../../images/testbg.png");
 			background-position: top right;
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
 		}
 	
-			#offers p {
-				font-size: 1.25em;
-			}
-	
-				@media screen and (max-width: 980px) {
-	
-					#offers p br {
-						display: none;
-					}
-	
+		#offers p {
+			font-size: 1.25em;
+		}
+
+			@media screen and (max-width: 980px) {
+
+				#offers p br {
+					display: none;
 				}
-	
-				@media screen and (max-width: 736px) {
-	
-					#offers p {
-						font-size: 1em;
-					}
-	
-				}
-	
-			@media screen and (max-width: 1280px) {
-	
-				#offers {
-					background-attachment: scroll;
-				}
+
 			}
 
-			.oneh2 {
-				text-align: center;
+			@media screen and (max-width: 736px) {
+
+				#offers p {
+					font-size: 1em;
+				}
+
 			}
+
+		@media screen and (max-width: 1280px) {
+
+			#offers {
+				background-attachment: scroll;
+			}
+		}
+
+		.oneh2 {
+			text-align: center;
+		}
+
+		/*  section 2  */
+
+		#twow {
+			background-attachment: fixed;
+			background-image: url("../../images/testbg.png");
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+
+		#twow p {
+			font-size: 1.25em;
+		}
+
+			@media screen and (max-width: 980px) {
+
+				#twow p br {
+					display: none;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#twow p {
+					font-size: 1em;
+				}
+
+			}
+
+		@media screen and (max-width: 1280px) {
+
+			#twow {
+				background-attachment: scroll;
+			}
+		}
+
+		.oneh2 {
+			text-align: center;
+		}
