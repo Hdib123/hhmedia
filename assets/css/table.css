@@ -1,0 +1,155 @@
+@import url(fontawesome-all.min.css);
+
+.frame {
+	 position: relative;
+	 top: 50%;
+	 left: 20%;
+	 width: 1030px;
+	 height: 900px;
+	 margin-top: 0px;
+	 margin-left: -200px;
+	 border-radius: 2px;
+	 box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.05);
+	 overflow: hidden;
+	 color: #5e5e5e;
+	 font-family: Arial, Helvetica, sans-serif;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+}
+ul {
+	margin-left: 22px !important;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+li {
+	margin-bottom: 11px;
+	color: #e4e4e4;
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+.frame p {
+	text-align: center;
+	bottom: -35px;
+	position: absolute;
+}
+ .plan {
+	 position: absolute;
+	 width: 300px;
+	 height: 600px;
+	 top: 30px;
+	 left: 5px;
+	 background: #211f2790;
+	 box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+	 border-radius: 3px;
+	 overflow: hidden;
+	 cursor: pointer;
+	 transition: all 0.3s ease-in-out;
+}
+ .plan.basic:hover ~ .datas .users .fill, .plan.basic:hover ~ .datas .gb .fill, .plan.basic:hover ~ .datas .projects .fill {
+	 transform: scaleX(0.05) translate3d(0, 0, 0);
+}
+ .plan.pro {
+	 left: 355px;
+}
+ .plan.pro:hover ~ .datas .users .fill {
+	 transform: scaleX(0.5) translate3d(0, 0, 0);
+}
+ .plan.pro:hover ~ .datas .gb .fill {
+	 transform: scaleX(0.5) translate3d(0, 0, 0);
+}
+ .plan.pro:hover ~ .datas .projects .fill {
+	 transform: scaleX(0.5) translate3d(0, 0, 0);
+}
+ .plan.premium {
+	 left: 695px;
+}
+ .plan.premium:hover ~ .datas .users .fill, .plan.premium:hover ~ .datas .gb .fill, .plan.premium:hover ~ .datas .projects .fill {
+	 transform: scaleX(1) translate3d(0, 0, 0);
+}
+ .plan:hover {
+	 transform: scale(1.1) translate3d(0, 0, 0);
+	 box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+ .plan:hover .title {
+	 background: rgb(237, 100, 187);
+}
+ .plan:hover .price {
+	 color: rgb(163, 47, 120);
+}
+ .plan .title {
+	 height: 36px;
+	 text-align: center;
+	 background: rgb(163, 47, 120);
+	 color: #fff;
+	 font-weight: 600;
+	 line-height: 36px;
+	 font-size: 14px;
+	 transition: all 0.3s ease-in-out;
+}
+ .plan .price {
+	 text-align: center;
+	 font-size: 30px;
+	 line-height: 30px;
+	 font-weight: 700;
+	 padding: 16px 0 17px 0;
+	 transition: all 0.3s ease-in-out;
+	 color: #8f8f8f;
+}
+ .plan .price span {
+	 display: block;
+	 font-size: 12px;
+	 line-height: 12px;
+	 font-weight: 400;
+}
+
+ .plan .line {
+	 height: 3px;
+	 background: #e4e4e4;
+	 margin: 0 auto 7px auto;
+}
+ .datas {
+	 position: absolute;
+	 height: 120px;
+	 width: 1000px;
+	 top: 670px;
+	 left: 0px;
+	 background: rgba(0, 0, 0, 0.25);
+	 box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+ .datas .data {
+	 margin: 17px 15px 0 15px;
+}
+ .datas .data .text {
+	 font-size: 12px;
+	 height: 20px;
+}
+.datas .data .text .left {
+	float: left;
+}
+
+.datas .data .text .right {
+	float: right;
+}
+
+ .datas .data .line {
+	 position: relative;
+	 z-index: 5;
+	 width: 100%;
+	 height: 10px;
+	 background: #807c7c81;
+	 border-radius: 5px;
+	 overflow: hidden;
+}
+ .datas .data .line .fill {
+	 position: relative;
+	 z-index: 1;
+	 height: 10px;
+	 width: 100%;
+	 background: rgb(163, 47, 120);
+	 transform: scaleX(0);
+	 transform-origin: 0 50%;
+	 transition: all 0.3s ease-in-out;
+	 border-radius: 3px;
+}
+
+
+ 
