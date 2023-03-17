@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 
-.frame {
+.frames {
 	 position: relative;
 	 top: 50%;
 	 left: 20%;
@@ -21,66 +21,62 @@ ul {
 	margin-right: 10px;
 	margin-bottom: 10px;
 }
-.bottom {
-	top: 310px !important;
-	height: 350px !important;
-}
 li {
 	margin-bottom: 11px;
 	color: #e4e4e4;
 	font-family: Arial, Helvetica, sans-serif !important;
 }
-frame p {
+frames p {
 	text-align: center;
 	justify-content: center;
 	bottom: -35px;/**/
 	position: absolute;
 }
- .plan {
+ .plans {
 	 position: absolute;
 	 width: 300px;
-	 height: 150px;
-	 top: 0px;
+	 height: 300px;
+	 top: 560px;
 	 left: 5px;
-	 /*#211f27ad*/background: #211f27ad;
+	 background: #211f2790;
 	 box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
 	 border-radius: 3px;
 	 overflow: hidden;
 	 cursor: pointer;
 	 transition: all 0.3s ease-in-out;
 }
- .plan.basic:hover ~ .datas .users .fill, .plan.basic:hover ~ .datas .gb .fill, .plan.basic:hover ~ .datas .projects .fill {
+ .plans.basics:hover ~ .datas .users .fill, .plans.basics:hover ~ .datas .gb .fill, .plans.basics:hover ~ .datas .projects .fill {
 	 transform: scaleX(0.05) translate3d(0, 0, 0);
 }
- .plan.pro {
+ .plans.pros {
 	 left: 355px;
 }
- .plan.pro:hover ~ .datas .users .fill {
+ .plans.pros:hover ~ .datas .users .fill {
 	 transform: scaleX(0.5) translate3d(0, 0, 0);
 }
- .plan.pro:hover ~ .datas .gb .fill {
+ .plans.pros:hover ~ .datas .gb .fill {
 	 transform: scaleX(0.5) translate3d(0, 0, 0);
 }
- .plan.pro:hover ~ .datas .projects .fill {
+ .plans.pros:hover ~ .datas .projects .fill {
 	 transform: scaleX(0.5) translate3d(0, 0, 0);
 }
- .plan.premium {
+ .plans.premiums {
 	 left: 695px;
 }
- .plan.premium:hover ~ .datas .users .fill, .plan.premium:hover ~ .datas .gb .fill, .plan.premium:hover ~ .datas .projects .fill {
+ .plans.premiums:hover ~ .datas .users .fill, .plans.premium:hover ~ .datas .gb .fill, .plans.premium:hover ~ .datas .projects .fill {
 	 transform: scaleX(1) translate3d(0, 0, 0);
 }
- .plan:hover {
+ .plans:hover {
 	 transform: scale(1.1) translate3d(0, 0, 0);
 	 box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
- .plan:hover .title {
+ .plans:hover .title {
 	 background: rgb(237, 100, 187);
 }
- .plan:hover .price {
+ .plans:hover .price {
 	 color: rgb(163, 47, 120);
 }
- .plan .title {
+ .plans .title {
 	 height: 36px;
 	 text-align: center;
 	 background: rgb(163, 47, 120);
@@ -90,7 +86,7 @@ frame p {
 	 font-size: 14px;
 	 transition: all 0.3s ease-in-out;
 }
- .plan .price {
+ .plans .price {
 	 text-align: center;
 	 font-size: 30px;
 	 line-height: 30px;
@@ -99,65 +95,15 @@ frame p {
 	 transition: all 0.3s ease-in-out;
 	 color: #8f8f8f;
 }
- .plan .price span {
+ .plans .price span {
 	 display: block;
 	 font-size: 12px;
 	 line-height: 12px;
 	 font-weight: 400;
 }
 
- .plan .line {
+ .plans .line {
 	 height: 3px;
 	 background: #e4e4e4;
 	 margin: 0 auto 7px auto;
 }
- .datas {
-	 position: absolute;
-	 height: 120px;
-	 width: 1000px;
-	 top: 170px;
-	 left: 0px;
-	 background: #211f27ad;
-	 box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
-}
- .datas .data {
-	 margin: 17px 15px 0 15px;
-}
- .datas .data .text {
-	 font-size: 12px;
-	 height: 20px;
-	 color: #e4e4e4;
-}
-.datas .data .text .left {
-	float: left;
-}
-
-.datas .data .text .right {
-	float: right;
-}
-
- .datas .data .line {
-	 position: relative;
-	 z-index: 5;
-	 width: 100%;
-	 height: 10px;
-	 background: #807c7c81;
-	 border-radius: 5px;
-	 overflow: hidden;
-}
- .datas .data .line .fill {
-	 position: relative;
-	 z-index: 1;
-	 height: 10px;
-	 width: 100%;
-	 background: rgb(163, 47, 120);
-	 transform: scaleX(0);
-	 transform-origin: 0 50%;
-	 transition: all 0.3s ease-in-out;
-	 border-radius: 3px;
-}
-
-.offersinclude {
-	font-size: medium !important;
-}
- 
