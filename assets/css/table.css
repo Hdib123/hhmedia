@@ -16,6 +16,16 @@
 	 -webkit-font-smoothing: antialiased;
 	 -moz-osx-font-smoothing: grayscale;
 }
+
+@media screen and (max-width: 844px){
+	.frame {
+		display: none;
+	}
+	.demo {
+		display: block !important;
+	}
+}
+
 ul {
 	margin-left: 22px !important;
 	margin-right: 10px;
