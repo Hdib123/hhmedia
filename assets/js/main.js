@@ -190,3 +190,9 @@
 			});
 
 })(jQuery);
+
+$(document).ready(function() {
+	if ($(window).width() < 768) {
+	  $('#three .split').removeClass('style1 split');
+	}
+  });
